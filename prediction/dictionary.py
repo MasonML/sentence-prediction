@@ -10,7 +10,7 @@ class Dictionary:
         self.word_pairs = dict()
 
     def get_dictionary(self):
-        with open(dir_path + "\\..\\datasets\\words_alpha.txt") as f:
+        with open(dir_path + "/../datasets/words_alpha.txt") as f:
             words = f.read().split("\n")
         return {words[i]:0 for i in range(len(words))}
 
