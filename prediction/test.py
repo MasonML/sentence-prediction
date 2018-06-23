@@ -18,6 +18,6 @@ for segment in conversations:
     for w in range(len(words)-1):
         dictionary.update_tuple_freq(words[w], words[w+1])
 
-print(dictionary.sorted_ordereddict(dictionary.word_pairs['they']))
+print(dictionary.word_pairs['they'])
 
 
