@@ -3,6 +3,7 @@ from collections import OrderedDict
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
+
 class Dictionary:
     def __init__(self):
         self.dictionary = self.get_dictionary()
