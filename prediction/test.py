@@ -5,7 +5,7 @@ from prediction.dictionary import Dictionary
 dictionary = Dictionary()
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-with open(dir_path + '\\..\\datasets\\cornell movie-dialogs corpus\\movie_lines.txt','r') as f:
+with open(dir_path + '/../datasets/movie_dialogue/movie_lines.txt','r') as f:
     r = f.read()
 conversations = r.split("\n")
 
